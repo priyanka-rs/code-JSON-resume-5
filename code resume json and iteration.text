@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> document</title>
+    </head>
+    <body>
+        <script>
+             
+              
+             let myResume={
+    "basics": {
+      "name": "priyanka.s",
+      "email": "priyankars2510@com",
+      "phone":9080794661,
+      "degree":
+          {
+             "UG":"Bachelor of engineering",
+               "PG":"masters in fashion management"
+          }
+        ,
+      "location": {
+        "address": "15/66B  sree narayanaguru nagar pudukkadai",
+        "postalCode": 629171,
+        "district": "kanyakumari",
+        "state": "Tamilnadu",
+        "country": "India"
+      },
+      "profiles": 
+        {
+          "website": "https://www.linkedin.com/in/priyanka/",
+          "github":"https://github.com/priyanka_rs",
+        }
+      
+    },
+    "internship":[ {
+        "company": "the best seller india PVT",
+        "position": "visual merchandiser ",
+        "startDate": "2023-06-1",
+        "endDate": "2023-09-1",
+        "summary": "i am the visual merchandising handling various task and gaining lots of experience",
+}
+    ],
+    "education": [
+      {
+        "institution": "KCG college of engineering",
+        "department": "CSE",
+        "studyType": "fulltime",
+        "batch start year": 2017,
+        "batch end year": 2021,
+        "gpa": 7.5,},
+     {
+        "institution": "indian institute of fashion technology",
+        "department": "fashion management",
+        "studyType": "fulltime",
+        "batch start year": 2021,
+        "batch end year": 2023,
+        "gpa": 8.5 ,
+        }
+      
+    ],
+    "languages": [
+      {
+        "language": "Tamil,Enlish",
+      }
+    ],
+    "interests": [
+      {
+        "name": "drawing ,cooking,"},
+      
+    ]
+    }
+  console.log(myResume);
+ //iteration 
+  
+ for(i=0;i<myResume.education.length;i++)    
+ {
+    console.log(myResume.education[i].gpa)
+ } 
+   
+        </script>
+    </body>
+</html>
